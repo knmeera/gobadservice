@@ -1,5 +1,4 @@
 import { Router } from "express";
-import 'regenerator-runtime/runtime'
 import {
     getPosts,
 } from "../controllers/posts.controller";
