@@ -1,5 +1,6 @@
 import sql from "mssql";
 import config from "../config";
+import 'regenerator-runtime/runtime'
 
 export const dbSettings = {
   user: config.dbUser,
